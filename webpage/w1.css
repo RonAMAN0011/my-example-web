@@ -1,0 +1,161 @@
+html{
+font-family: "serif","Pristina","Gabriola";
+}
+header{
+background-image: linear-gradient(to bottom,aqua,white);
+height: 130px;
+}
+h1
+{  
+    height:50px;
+    background-image: linear-gradient(to bottom,coral,white);
+    font-family: Kristen ITC;
+    text-align: center;
+    color: whitesmoke;
+    margin-top:2%;
+    text-shadow: 4px 3px 3px black;
+}
+p {
+    color: #5d6660;
+    font-size: 20px;
+    padding-left:5px; 
+    margin-left:  27px;
+    width: 85%;
+    
+}
+.col3{
+    padding-top: 15px;
+}
+.col2{
+    width=32%;
+    float: left;
+    padding-top: 42px;
+}
+#TOP1{
+    width=100%;
+    padding: 10px 20px 0px 10px;
+    margin: auto;
+}
+.logo{
+    width: 85%;
+    padding: 5px 30px 0px  ;
+}
+.col1{
+    margin=33%;
+    float: left;  
+    
+}
+.menu{
+    float: left;
+    margin: 40px 0px 0px 60px;
+    
+}
+.menu li {
+    font-family: segoe script;
+    list-style-type: none;
+    display: inline;
+    font-size: 1.5em;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 2px 3px 2px black, 3px 3px 0px white;
+    margin-top: 40px;
+    width: 50%;
+    border-top: 5px black;
+}
+.MIDSECTION .col3
+{   float: left;
+    padding: 10px 50px 20px 50px;
+    width: 25%;
+    text-align: center;
+}
+.menu li:hover{ 
+    padding-top: 10px;
+    opacity: 100%;
+    text-decoration: underline;
+    text-decoration-line: line-through;
+    
+}
+.login{
+    font-family: segoe script;
+    margin-left: 250px;
+    background-color: #6dc77a;
+    border-radius: 28px;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px 26px ;
+    margin-top: 35px;
+    display: inline;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    
+}
+.login:hover{
+    background-color: crimson;
+    font-size: 20px;
+    transition: all 0px 0px;
+}
+.col3:hover{
+    transform: scale(1.04);
+}
+.col3 img{
+border: 10px solid aqua; 
+}
+#mid1{
+    float: left;
+    display: inline;
+}
+.THIRDSEC{
+    text-align: center;
+}
+#top-section-main {
+
+    height: 260px;
+    clear: both;
+}
+#top-section-content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-form{
+     background-image: url(images/darkdesk.png);
+    height: 90%;
+}
+.main-form h6 {
+    font-family: gabriola;
+    font-size: 1.9em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+.main-form input {
+    margin:auto;
+    width: 30%;
+    margin-left: 40px;
+    height: 30px;
+    font-family: century gothic;
+    font-size: 15px;
+    padding-left: 25px;
+    border: 2px solid aqua;
+}
+.main-form button {
+    width: 20%;
+    margin-left: 20px;
+    height: 30px;
+    font-family: century gothic;
+    text-shadow: 2px 2px 3px black;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border:20%;
+}
+.main-form button:hover{
+    background-color: crimson;
+    font-size: 18px;
+    transition: all 0px 0px;
+}
